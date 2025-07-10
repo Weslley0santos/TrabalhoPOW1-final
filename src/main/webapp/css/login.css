@@ -1,0 +1,51 @@
+/* login.css */
+.login-container {
+    width: 350px;
+    margin: 80px auto; /* centraliza vertical e horizontalmente com margem */
+    padding: 30px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.login-container button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}

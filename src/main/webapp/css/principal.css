@@ -1,0 +1,33 @@
+.botoes-principais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botao {
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Azul para Gerenciar Alunos */
+.botao-azul {
+    background-color: #1e88e5;
+}
+
+.botao-azul:hover {
+    background-color: #1565c0;
+}
+
+/* Vermelho para Sair */
+.botao-vermelho {
+    background-color: #e53935;
+}
+
+.botao-vermelho:hover {
+    background-color: #c62828;
+}
